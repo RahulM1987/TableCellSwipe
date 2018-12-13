@@ -14,6 +14,7 @@
 		D45FBFB421BFE5970012D121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45FBFB221BFE5970012D121 /* LaunchScreen.storyboard */; };
 		D45FBFBF21BFE5970012D121 /* TableCellSwipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45FBFBE21BFE5970012D121 /* TableCellSwipeTests.swift */; };
 		D45FBFCA21BFE5970012D121 /* TableCellSwipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45FBFC921BFE5970012D121 /* TableCellSwipeUITests.swift */; };
+		D45FBFD821BFEE160012D121 /* SwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45FBFD721BFEE160012D121 /* SwipeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D45FBFC521BFE5970012D121 /* TableCellSwipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableCellSwipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45FBFC921BFE5970012D121 /* TableCellSwipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellSwipeUITests.swift; sourceTree = "<group>"; };
 		D45FBFCB21BFE5970012D121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45FBFD721BFEE160012D121 /* SwipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				D45FBFA921BFE5950012D121 /* AppDelegate.swift */,
 				D45FBFAB21BFE5950012D121 /* ViewController.swift */,
+				D45FBFD721BFEE160012D121 /* SwipeTableViewCell.swift */,
 				D45FBFAD21BFE5950012D121 /* Main.storyboard */,
 				D45FBFB021BFE5970012D121 /* Assets.xcassets */,
 				D45FBFB221BFE5970012D121 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D45FBFAC21BFE5950012D121 /* ViewController.swift in Sources */,
+				D45FBFD821BFEE160012D121 /* SwipeTableViewCell.swift in Sources */,
 				D45FBFAA21BFE5950012D121 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
